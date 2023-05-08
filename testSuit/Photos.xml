@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+    <listeners>
+        <listener class-name="Listeners.AssignTestPriorityListener"/>
+        <listener class-name="Listeners.ExtentListener"></listener>
+    </listeners>
+
+    <test name="Photos Page Test Cases">
+        <classes>
+            <class name="testcases.PhotosPageTest"></class>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Jira Test Cases Test Automation Suite">
+
+    <listeners>
+        <listener class-name="util.AssignTestPriorityListener" />
+    </listeners>
+
+    <test name="Login Test cases">
+        <classes>
+            <class name="testcases.LoginPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Forms Test cases">
+        <classes>
+            <class name="testcases.FormsPageTest"></class>
+        </classes>
+    </test>
+
+</suite>

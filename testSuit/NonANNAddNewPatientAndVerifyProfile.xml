@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+    <listeners>
+        <listener class-name="Listeners.AssignTestPriorityListener"/>
+        <listener class-name="Listeners.ExtentListener"></listener>
+    </listeners>
+
+    <test name="Add New Patient And Verify Profile Test Cases">
+        <classes>
+            <class name="testcases.NonANNAddNewPatientAndVerifyProfilePageTest"></class>
+        </classes>
+    </test>
+
+</suite>

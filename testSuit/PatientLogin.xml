@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+    <listeners>
+        <listener class-name="Listeners.AssignTestPriorityListener"/>
+        <listener class-name="Listeners.ExtentListener"></listener>
+    </listeners>
+
+    <test name="Patient Login Page Test Cases">
+        <classes>
+            <class name="testcases.patientLoginPageTest"></class>
+        </classes>
+    </test>
+
+</suite>
+
